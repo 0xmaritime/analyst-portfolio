@@ -128,11 +128,17 @@ export default function StrategemV1Page() {
               title="Entity Relationship Diagram"
               description="Core game state and player data model"
             />
-            <ArtifactContainer
-              src="/placeholder-bpmn.svg"
-              alt="Business Process Model"
-              title="Game Loop BPMN"
-              description="Turn sequence and state transitions"
+            <ArtifactPreview
+              title="Business Process Model"
+              description="BPMN 2.0 diagram showing end-to-end process flow from problem intake to artifact generation"
+              artifactType="BPMN 2.0"
+              href="/strategem/v1/artifacts/business-process-model"
+            />
+            <ArtifactPreview
+              title="Claim Object Schema"
+              description="Canonical schema specification for the atomic unit of reasoning output with v1-frozen field definitions"
+              artifactType="Data Schema"
+              href="/strategem/v1/artifacts/claim-object-schema"
             />
             <ArtifactContainer
               src="/placeholder-system-architecture.svg"
