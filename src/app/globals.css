@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    border-radius: 0 !important;
+  }
+  
+  body {
+    @apply bg-architectural-paper text-architectural-ink font-sans antialiased;
+  }
+}
+
+@layer components {
+  .border-architectural {
+    @apply border border-architectural-ink;
+  }
+  
+  .border-thick {
+    @apply border-2 border-architectural-ink;
+  }
+}
